@@ -148,7 +148,7 @@ export default function Create() {
   }
 
   const submit=async()=>{
-    const url= "http://sth.deathvalleyyy.com/"
+    const url= "https://sth.deathvalleyyy.com/"
     axios.post(url,{title: title, desc: desc, questions: questions})
     .then((response) => {console.log(response.data) })
     .catch((response) => {console.log('Error!') })
